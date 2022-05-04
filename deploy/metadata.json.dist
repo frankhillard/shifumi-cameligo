@@ -11,7 +11,7 @@
     "homepage": "https://github.com/ligolang/shifumi-cameligo",
     "source": {
         "tools": "cameligo",
-        "location": "https://github.com/smart-chain-fr/ligolib/dao/contracts"
+        "location": "https://github.com/ligolang/shifumi-cameligo/contracts"
     },
     "interfaces": [
         "TZIP-016"

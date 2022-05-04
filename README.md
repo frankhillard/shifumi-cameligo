@@ -20,7 +20,7 @@ result for this round is computed and the session goes to the next round.
 
 The result of the session is automatically computed once all rounds have been played.
 
-The smart contract provides an on-chian view for retrieving the session information:
+The smart contract provides an on-chain view for retrieving the session information:
 
 - the status of a session (Inplay, Winner, Draw)
 - winners for each round
@@ -58,12 +58,4 @@ The repository provides a deployment script for deploying the smart contract Shi
 ```sh
 make sandbox-start
 make deploy
-```
-
-It is based on a .env file that contains deployment information:
-
-```sh
-ADMIN_PK - private key
-ADMIN_ADDRESS - public key
-RPC - URL of the RPC node that will process the transaction
 ```

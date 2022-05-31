@@ -8,8 +8,6 @@ import metadata from "./metadata.json";
 // Read environment variables from .env file
 dotenv.config();
 
-console.log(process.env.NODE_URL)
-
 // Initialize RPC connection
 const Tezos = new TezosToolkit(process.env.NODE_URL);
 
